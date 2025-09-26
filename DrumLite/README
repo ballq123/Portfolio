@@ -1,0 +1,47 @@
+# DrumLite – Portable Electronic Drum System
+
+**Timeline:** Aug 2024 – Dec 2024  
+**Team Size:** 3 (Capstone Project, CMU ECE)  
+**Tech Stack:** ESP32 (C), MPU-6050 accelerometers, FreeRTOS, OpenCV (Python/C++), Bluetooth, Linux  
+
+---
+
+## Overview
+DrumLite is a **portable electronic drum kit** designed for accessibility and portability.  
+It uses **ESP32 microcontrollers with accelerometer sensors** and a **top-down computer vision system** to detect drumstick hits in real time, triggering audio playback with **~52ms end-to-end latency**.  
+
+Unlike traditional drum kits, DrumLite is lightweight, low-cost, and designed for **inclusive musical expression** without requiring a full-size set.
+The full repository is located in a private repository under CMU, so I have included a few key snippets I wrote/helped write.
+
+---
+
+## Key Features
+- **Real-time drum hit detection** with average **52ms latency**  
+  - Bluetooth RTT: ~17ms  
+  - Computer vision processing: ~30ms  
+  - Accelerometer processing: ~5ms  
+- **ESP32 firmware** (C) for accelerometer signal capture + thresholding logic  
+- **OpenCV module** (Python/C++) for colored tip drumstick tracking  
+- **Accessibility-first design** → lightweight, low-cost, and easy to set up  
+- Integrated **FreeRTOS concurrency** for real-time data handling  
+
+---
+
+## Selected Code Snippets
+- [`accelerometer_hit_detection.c`](code-snippets/accelerometer_hit_detection.c) → Embedded hit detection logic with low-high difference thresholding  
+- [`drumstick_tracking.py`](code-snippets/drumstick_tracking.py) → OpenCV-based tip detection + hit location mapping  
+
+---
+
+## Impact
+- Achieved **real-time audio responsiveness** across 4 drum faces  
+- Validated system with multiple users; reduced false positives by tuning accelerometer thresholds  
+- Showcased at CMU’s **ECE Senior Design Capstone Expo**  
+
+---
+
+## Skills Demonstrated
+- Embedded programming (C on ESP32, FreeRTOS concurrency, interrupts)  
+- Computer vision (OpenCV, color tracking, real-time hit detection)  
+- Wireless systems (Bluetooth low-latency communication)  
+- Systems optimization (latency profiling, bottleneck reduction)  
