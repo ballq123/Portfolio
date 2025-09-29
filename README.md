@@ -33,8 +33,8 @@ These are curated examples (not full class repos) to demonstrate code quality, d
 ---
 
 ## Contact
-- Belle Connaught
-- Electrical and Computer Engineering (ECE) @ Carnegie Mellon University | SWE/Embedded Systems
+Belle Connaught
+BS/MS in Electrical & Computer Engineering @ Carnegie Mellon University | SWE/Embedded Systems
 - **Email:** connaughtb@gmail.com 
 - **LinkedIn:** [linkedin.com/in/belle-connaught](https://linkedin.com/in/belle-connaught)
 - **GitHub:** [https://github.com/connaughtb/portfolio](https://github.com/connaughtb/portfolio)
