@@ -9,7 +9,7 @@ These are curated examples (not full class repos) to demonstrate code quality, d
 
 ## 📂 Projects
 
-- [**DrumLite – Portable Electronic Drum System**](DrumLite/README)  
+- [**DrumLite – Portable Electronic Drum System**](DrumLite/README.md)  
   *ESP32, MPU-6050, FreeRTOS, OpenCV (Python/C++)*  
   - Achieved ~52ms end-to-end latency for real-time drum hit detection  
   - Accessibility-focused design enabling low-cost, portable musical expression  
