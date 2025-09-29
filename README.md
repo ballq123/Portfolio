@@ -7,7 +7,7 @@ These are curated examples (not full class repos) to demonstrate code quality, d
 
 ---
 
-## 📂 Projects
+## Projects
 
 - [**DrumLite – Portable Electronic Drum System**](DrumLite/README.md)  
   *ESP32, MPU-6050, FreeRTOS, OpenCV (Python/C++)*  
@@ -31,7 +31,7 @@ These are curated examples (not full class repos) to demonstrate code quality, d
 
 ---
 
-## ⚙️ Skills Demonstrated
+## Skills Demonstrated
 - **Programming:** Python, C, C++, Go, Rust, Java, Assembly  
 - **Embedded Systems:** FreeRTOS, STM32/ESP32, real-time scheduling, device drivers  
 - **Distributed Systems:** Concurrency (goroutines, threads), fault tolerance, UDP/TCP networking  
@@ -40,6 +40,6 @@ These are curated examples (not full class repos) to demonstrate code quality, d
 
 ---
 
-## 📫 Contact
+## Contact
 - **Email:** connaughtb@gmail.com  
 - **LinkedIn:** [linkedin.com/in/belle-connaught](https://linkedin.com/in/belle-connaught)  
